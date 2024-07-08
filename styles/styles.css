@@ -1,0 +1,60 @@
+:root {
+    --color1: #6D28E0;
+    --color2: #D2CCFF;
+    --color3: #FFFFFF;
+    --color4: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    background-color: var(--color2);
+}
+
+header div{
+    display: flex;
+    align-items: row;
+}
+
+div img{
+    width: 100px;
+    height: 100px;
+}
+
+.divNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divNav a{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    width: 30px;
+    height: 30px;
+    border-style: groove;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: var(--color3);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.navButtons{
+    display: flex;
+    align-items: row;
+}
