@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <main class="flex flex-col bg-gray-800">
+        <hr>
+        <header class="flex h-11 flex-row items-center justify-between bg-gray-700">
+          <div class="flex flex-row items-center text-white">
+            <div class="ml-3 rounded-full bg-slate-500 p-1">LOGO</div>
+            <div>
+              <h1 class="ml-2 uppercase font-extrabold text-xl">Moviestack</h1>
+            </div>
+          </div>
+          <nav class="flex flex-row justify-around text-white">
+            <a href="/index.html" class="mr-4 w-16 text-center uppercase">Home</a>
+            <a href="/pages/movies.html" class="mr-4 w-16 text-center uppercase">Movies</a>
+            <a href="/pages/favs.html" class="mr-4 w-16 border border-white text-center uppercase">Favs</a>
+          </nav>
+        </header>
+        <hr>
+        <article class="flex justify-center items-center">
+          <p class="mb-5 ml-8 mr-8 text-white mt-5 text-sm text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+        </article>
+      
+        <section class="flex flex-row justify-center">
+          <div class="mb-6 ml-3 ml-8 mr-8 mt-6 w-96 flex h-48 items-center justify-center bg-gray-400 uppercase text-white text-xl text-center">Call to action <br> (movies)</div>
+      
+          <div class="mb-6 ml-3 ml-8 mr-8 mt-6 w-96 flex h-48 items-center justify-center bg-gray-400 uppercase text-white text-xl text-center">Call to action <br> (favs)</div>
+        </section>
+      
+        <hr>
+      </main>
+      <footer class="h-20 bg-gray-950">
+        <hr>
+        <div class="flex flex-row justify-center items-center text-white bg-gray-700 h-10">
+          Mindhub - Cohort 55
+        </div>
+        <hr>
+      </footer>
+          
 </body>
 </html>
